@@ -1,0 +1,31 @@
+{
+  "name": "typescript-utils",
+  "version": "1.0.0",
+  "description": "Various utilities to make it easier to build typescript programmatically",
+  "main": "index.js",
+  "types": "index.ts",
+  "author": "Kris Selden",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "index.ts"
+  ],
+  "scripts": {
+    "prepublish": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krisselden/typescript-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/krisselden/typescript-utils/issues"
+  },
+  "homepage": "https://github.com/krisselden/typescript-utils",
+  "devDependencies": {
+    "@types/node": "^7.0.1",
+    "typescript": "^2.1.5"
+  },
+  "peerDependencies": {
+    "typescript": ">=2.0.0"
+  }
+}
